@@ -15,7 +15,7 @@ namespace InstallmentsInterface.Entities
 
         public override string ToString()
         {
-            return DueDate.ToString("ss/MM/yyyy")
+            return DueDate.ToString("dd/MM/yyyy")
                 + " - "
                 + Amount.ToString("F2", CultureInfo.InvariantCulture);
         }
